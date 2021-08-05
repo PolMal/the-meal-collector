@@ -1,0 +1,6 @@
+import random
+extra = ['noodles', 'spaghetti', 'salad', 'puree', 'rice']
+main = ['cotelet', 'steak', 'chicken filet', 'chicken legs', 'chicken wings', 'schnitzel', 'chicken nuggets', 'fish']
+i = random.randint(0,len(main)-1)
+j = random.randint(0,len(main)-1)
+print('today for a dinner you are going to eat', main[j], 'with', extra[i])
